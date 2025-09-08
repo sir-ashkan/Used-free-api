@@ -1,0 +1,32 @@
+{
+  "national": {
+    "avgTemp": 63.4,
+    "hotspots": ["Phoenix, AZ", "Las Vegas, NV", "Miami, FL"],
+    "updated": "2025-09-02 10:00 UTC"
+  },
+  "locations": [
+    {
+      "id": 1,
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101",
+      "image": "seattle-skyline.jpg",
+      "condition": "Light rain",
+      "current": { "temp": 58.3, "feels_like": 57.0, "humidity": 82, "wind": 8 },
+      "hourly": [ { "time": "11:00", "temp": 58, "condition": "Rain" } ],
+      "daily": [ { "date": "2025-09-02", "high": 62, "low": 53, "condition": "Rain" } ]
+    },
+    {
+      "id": 2,
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001",
+      "image": "nyc-sky.jpg",
+      "condition": "Sunny",
+      "current": { "temp": 75.1, "feels_like": 76.2, "humidity": 55, "wind": 6 },
+      "hourly": [ { "time": "11:00", "temp": 74, "condition": "Sunny" } ],
+      "daily": [ { "date": "2025-09-02", "high": 78, "low": 66, "condition": "Sunny" } ]
+    }
+    
+  ]
+}
